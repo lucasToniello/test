@@ -35,6 +35,7 @@ def test_edit_pipeline_config(name, config, etag):
 
 if __name__ == "__main__":
 	print("*Collecting server data*")
+	use_admin()
 	server = get_server()
 	print("Done!")
 	
